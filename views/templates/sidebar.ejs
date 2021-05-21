@@ -1,0 +1,95 @@
+	<!-- Sidebar -->
+	<ul class="sidebar navbar-nav">
+		<li class="nav-item" id="Dashboard">
+			<a class="nav-link" href="/dashboard">
+				<i class="fas fa-fw fa-tachometer-alt"></i>
+				<span>Dashboard</span>
+			</a>
+		</li>
+			<!-- Users -->
+		<li class="nav-item dropdown users usersrole access_role userGroups">
+			<a class="nav-link dropdown-toggle" href="#" id="Users_" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-fw fa-users"></i>
+				<span>Users</span>
+			</a>
+			<div class="dropdown-menu access_role" aria-labelledby="Users_">
+				<!-- Admin access -->						
+				<a class="dropdown-item" href="/adminaccess">
+					<i class="fas fa-fw fa-user"></i>
+					<span>Admin access</span>
+				</a>
+				<!-- // -->
+				<!-- User role -->						
+				<a class="dropdown-item usersrole" href="/userrole">
+					<i class="fas fa-fw fa-flag"></i>
+					<span>Roles</span>
+				</a>
+				<!-- // -->
+				<!-- Userbase -->
+				<a class="dropdown-item users" href="/users/1">
+					<i class="fas fa-fw fa-users"></i>
+					<span>Users management</span>
+				</a>
+				<!-- // -->
+				<!-- Groups -->
+				<a class="dropdown-item userGroups" href="/user_groups">
+					<i class="fas fa-fw fa-tag"></i>
+					<span>Groups</span>
+				</a>
+				<!--//-->
+			</div>
+		</li>
+
+		<li class="nav-item" id="userReferral">
+			<a class="nav-link" href="/userReferral">
+				<i class="fas fa-fw fa-users"></i>
+				<span>Referral</span>
+			</a>
+		</li>
+		<li class="nav-item" id="support">
+			<a class="nav-link" href="/support">
+				<i class="fas fa-fw fa-tag"></i>
+				<span>Support</span>
+			</a>
+		</li>
+	
+		<li class="nav-item dropdown announcement marketing blogs">
+			<a class="nav-link dropdown-toggle" href="#" id="Marketing_" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-fw fa-th-list"></i>
+				<span>Announcement</span>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="Marketing_">							
+				<a class="dropdown-item">
+					<span><b>Announcement</b></span>
+				</a>
+				<a class="dropdown-item" href="/announcement">
+					<i class="fas fa-fw fa-tag"></i>
+					<span>Announcement list</span>
+				</a>
+				<a class="dropdown-item" href="/announ_category">
+					<i class="fas fa-fw fa-tag"></i>
+					<span>Category</span>
+				</a>
+				<hr>
+			</div>
+		</li>
+
+		<li class="nav-item dropdown" id="blogs">
+			<a class="nav-link dropdown-toggle" href="#" id="blogsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<i class="fas fa-fw fa-folder"></i>
+				<span>Blogs</span>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="blogsDropdown">
+				<a class="dropdown-item" href="/blogs">
+					<i class="fas fa-fw fa-envelope"></i>
+					<span>Blog list</span>
+				</a>
+				<a class="dropdown-item" href="/category">
+					<i class="fas fa-fw fa-tag"></i>
+					<span>Category</span>
+				</a>
+			</div>
+		</li>
+	</ul>
+		
+<div id="content-wrapper">
